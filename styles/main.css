@@ -80,7 +80,33 @@ label{
     margin-right: 30%;
 }
 
-.error-box{
-    border: solid 2px red;
+
+input[type="text"], input[type="email"], select{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
 }
+
+.error-box{
+	border:2px solid red !important; 
+}
+
+input[type="submit"]{
+    background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+
+input[type="submit"]:hover{
+    background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+
 
