@@ -17,4 +17,12 @@ function storeFields(){
     localStorage.setItem("address", form.elements["address"].value);
 }
 
+function validate(){
+    var phonePattern = /^[0-9]+$/;
+    var textPattern = /^[A-Za-z]+$/;
+    var emailPattern = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+    const 
+}
+
 form.addEventListener('submit', onSubmit);
