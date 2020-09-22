@@ -4,6 +4,7 @@ function onSubmit(event){
     
     event.preventDefault();
     storeFields();
+    window.location = 'cv.html';
 }
 
 function storeFields(){
