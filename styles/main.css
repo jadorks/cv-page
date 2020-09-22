@@ -1,0 +1,30 @@
+.container{
+    display: flex;   
+    flex-direction: column;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio h2, h3{
+    margin: 0;
+}
+
+.education{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.inst{
+    display: flex;
+    justify-content: space-between;
+}
