@@ -80,3 +80,7 @@ label{
     margin-right: 30%;
 }
 
+.error-box{
+    border: solid 2px red;
+}
+
