@@ -2,6 +2,7 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 
+
 p li{
     font-family: 'Montserrat', sans-serif;
 }
@@ -49,5 +50,12 @@ h1, h2, h3, h4, h5{
     justify-content: space-evenly;
 }
 
+.heading h4{
+    margin-bottom: 0;
+}
+
+.inst h4{
+    margin: 0;
+}
 
 
