@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+p li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Lato', sans-serif;
+}
+
 .container{
     display: flex;   
     flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .bio{
