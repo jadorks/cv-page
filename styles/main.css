@@ -16,7 +16,7 @@
 
 .education{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .experience{
@@ -28,3 +28,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+.related{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
